@@ -1,0 +1,8 @@
+You must implement a system in which you have a 20x20 battlefield and the
+ability to create terrain in XxY blocks, such as 4x3, of various types.
+
+The tricky bit is that different terrain types will interact with each other
+and create new terrain types.
+
+You must implement this:
+http://divinity.wikia.com/wiki/Environmental_Effects_(Divinity:_Original_Sin)

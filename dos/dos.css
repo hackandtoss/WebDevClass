@@ -1,0 +1,139 @@
+body {
+    background-color: black;
+}
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       /*-moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+.empty {
+    background-color: white;
+    height: 3vmin;
+    width: 3vmin;
+    padding: 0;
+    float: left;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 3vmin;
+    border-style: solid;
+    border-color: black;
+    border-width: .3vmin;
+}
+.empty:hover, .empty:focus {
+    background-color: gray;
+}
+
+.player1 {
+    border-color: darkred;
+}
+.player2 {
+    border-color: darkblue;
+}
+.range1 {
+   border-color: red; 
+}
+.range2 {
+    border-color: blue;
+}
+
+.top {
+    border-top-width: .6vmin;
+}
+.bottom {
+    border-bottom-width: .6vmin;
+}
+.left {
+    border-left-width: .6vmin;
+}
+.right {
+    border-right-width: .6vmin;
+}
+
+.black {
+    background-color: black;
+}
+.white {
+    background-color: gray;
+}
+.blood {
+    background-color: darkred;
+}
+.water {
+    background-color: blue;
+}
+.fire {
+    background-color: red;
+}
+.lava {
+    background-color: orange;
+}
+.oil {
+    background-color: black;
+}
+.cloud {
+    opacity: 50;
+}
+.posion {
+    background-color: green;
+}
+.smoke {
+    background-color: darkgray;
+}
+.steam {
+    background-color: lightblue;
+}
+
+
+.game {
+    border-style: solid;
+    border-width: 10px;
+    border-color: darkgray;
+    width: 72.6vmin;
+    height: 72.6vmin;
+    margin: auto;
+}
+.select {
+    border-style: solid;
+    border-width: 10px;
+    border-color: darkgray;
+    background-color: gray;
+    width: 150px;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.input {
+    float: right;
+    width: 10px;
+    margin: 2px;
+}
+.xytext {
+    float: left;
+    color: white;
+    height: 21px;
+    vertical-align: middle;
+    line-height: 21px;
+    margin: 2px;
+}
+.text {
+    color: white;
+    height: 21px;
+    vertical-align: middle;
+    line-height: 21px;
+    margin: 2px;
+}
+.ability {
+    padding-left: 5px;
+    text-align: left;
+    color: white;
+}
+.bold {
+    font-weight: bold;
+    color: black;
+}
